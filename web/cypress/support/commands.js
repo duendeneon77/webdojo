@@ -27,7 +27,7 @@
 import 'cypress-real-events'
 import 'cypress-real-events/support'
 import './actions/consultancy.actions'
-import { getTodayFormattedDate } from './actions/utils';
+import { getTodayFormattedDate } from './utils';
 
 Cypress.Commands.add('start', ()=>{
     cy.visit("/");

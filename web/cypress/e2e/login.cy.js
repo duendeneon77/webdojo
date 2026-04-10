@@ -1,4 +1,4 @@
-import { getTodayFormattedDate } from "../support/actions/utils";
+import { getTodayFormattedDate } from "../support/utils";
 
 describe("Login", () => {
 
